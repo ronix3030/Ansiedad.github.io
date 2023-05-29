@@ -1,0 +1,85 @@
+
+body{
+    font-family: Georgia;
+    margin: 0%;
+}
+
+header{
+    display:flex;
+    height: 60px;
+    background-color: aqua;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.iconn{
+
+    display: flex;
+}
+.icon{
+    height: 60px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+
+
+.q {
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: rgb(132, 96, 165);
+    border-radius: 10px;
+}
+.m{
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+.v{
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+footer {
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+.redes img {
+    margin: 5px;
+    height: 50px;
+}
+
+.cop {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cop p {
+    color: white;
+}
+
